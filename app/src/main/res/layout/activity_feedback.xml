@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light">
+    <com.fang.crawlnews.widget.HeaderLayout
+        android:id="@+id/feedback_headerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:textCursorDrawable="@null"
+        android:hint="@string/feedback_edittext_hint"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="@drawable/feedback_bg_edittext_shape"/>
+    <Button
+        android:id="@+id/feedback_btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/feedback_submit"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/feedback_btn_submit_selector"/>
+</LinearLayout>

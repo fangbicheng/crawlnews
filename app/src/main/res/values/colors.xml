@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0099FF</color>
+    <color name="blue_light">#006699</color>
+    <color name="gray">#BFBFBF</color>
+    <color name="gray_light">#EDEDED</color>
+
+    <color name="dialog_tips_bg">#eeeeee</color>
+    <color name="dialog_tips_btn">#d6d6d6</color>
+    <color name="dialog_tips_line">#c6c6c6</color>
+    <color name="dialog_tips_title_txt">#434343</color>
+    <color name="dialog_tips_content_txt">#898989</color>
+    <color name="dialog_tips_negative_btn_txt">#0099FF</color>
+    <color name="dialog_tips_positive_btn_txt">#0099FF</color>
+</resources>
